@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8609b7a-f793-4ddc-83a6-b87f977d2891" name="Default" comment="" />
+    <list default="true" id="f8609b7a-f793-4ddc-83a6-b87f977d2891" name="Default" comment="Study Project">
+      <change beforePath="$PROJECT_DIR$/../study3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../study3/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -180,7 +182,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../study3" />
   </component>
   <component name="GradleLocalSettings">
@@ -469,7 +470,7 @@
       <option name="presentableId" value="Default" />
       <updated>1514441068127</updated>
       <workItem from="1514441075435" duration="12296000" />
-      <workItem from="1514466061708" duration="7736000" />
+      <workItem from="1514466061708" duration="8171000" />
     </task>
     <task id="LOCAL-00001">
       <created>1514472642838</created>
@@ -499,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514474964923</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Study Project">
+      <created>1514474997813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1514474997813</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20032000" />
+    <option name="totallyTimeSpent" value="20467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
