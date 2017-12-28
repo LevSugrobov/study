@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="studypro.ContactHobbyDetailEntity">
+        <table name="contact_hobby_detail" schema="javastudy" catalog="javastudy"/>
+        <attributes>
+            <id name="contactId">
+                <column name="contact_id" precision="-1"/>
+            </id>
+            <basic name="hobbyId">
+                <column name="hobby_id" length="20"/>
+            </basic>
+            <one-to-one name="contactByContactId" optional="true" target-entity="studypro.ContactEntity">
+                <join-column name="contact_id" referenced-column-name="id"/>
+            </one-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>

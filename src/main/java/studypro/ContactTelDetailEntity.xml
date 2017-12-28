@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="studypro.ContactTelDetailEntity">
+        <table name="contact_tel_detail" schema="javastudy" catalog="javastudy"/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="-1"/>
+            </id>
+            <basic name="contactId">
+                <column name="contact_id" precision="-1"/>
+            </basic>
+            <basic name="telType">
+                <column name="tel_type" length="20"/>
+            </basic>
+            <basic name="telNumber">
+                <column name="tel_number" length="20"/>
+            </basic>
+            <basic name="version">
+                <column name="version" precision="-1"/>
+            </basic>
+            <one-to-one name="contactById" optional="true" target-entity="studypro.ContactEntity">
+                <join-column name="id" referenced-column-name="id"/>
+            </one-to-one>
+        </attributes>
+    </entity>
+</entity-mappings>
