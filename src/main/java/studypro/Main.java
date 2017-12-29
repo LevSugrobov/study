@@ -1,8 +1,11 @@
 package studypro;
 
+import java.lang.Object;
+import org.springframework.context.*;
 
-
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
+import org.springframework.core.io.Resource;
 import studypro.ContactEntity;
 import studypro.ContactTelDetailEntity;
 import studypro.HobbyEntity;
@@ -15,7 +18,9 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
+        System.out.println("anything");
+
+    GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.load("classpath:spring-config.xml");
         ctx.refresh();
 

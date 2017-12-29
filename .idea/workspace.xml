@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8609b7a-f793-4ddc-83a6-b87f977d2891" name="Default" comment="Study Project">
-      <change beforePath="$PROJECT_DIR$/../study3/.idea/libraries/Maven__postgresql_postgresql_42_1_4.xml" afterPath="$PROJECT_DIR$/../study3/.idea/libraries/Maven__postgresql_postgresql_42_1_4.xml" />
-      <change beforePath="$PROJECT_DIR$/../study3/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../study3/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../study3/.idea/dictionaries/User_.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../study3/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_0_RC4.xml" />
+      <change beforePath="$PROJECT_DIR$/../study3/.idea/libraries/Maven__postgresql_postgresql_42_1_4.xml" afterPath="$PROJECT_DIR$/../study3/.idea/libraries/Maven__postgresql_postgresql_42_1_1_jre7.xml" />
       <change beforePath="$PROJECT_DIR$/../study3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../study3/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../study3/pom.xml" afterPath="$PROJECT_DIR$/../study3/pom.xml" />
       <change beforePath="$PROJECT_DIR$/../study3/src/main/java/studypro/Main.java" afterPath="$PROJECT_DIR$/../study3/src/main/java/studypro/Main.java" />
+      <change beforePath="$PROJECT_DIR$/../study3/src/main/resources/sping-config.xml" afterPath="$PROJECT_DIR$/../study3/src/main/java/studypro/spring-config.xml" />
+      <change beforePath="$PROJECT_DIR$/../study3/study3.iml" afterPath="$PROJECT_DIR$/../study3/study3.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,23 +102,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../study3/src/main/java/studypro/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="study3.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../study3/study3.iml">
+      <file leaf-file-name="spring-config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../study3/src/main/java/studypro/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-65">
+              <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassLoader.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="562" column="0" lean-forward="false" selection-start-line="562" selection-start-column="0" selection-end-line="562" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,55 +135,9 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../study3/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            <state relative-caret-position="374">
+              <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactEntity.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../study3/src/main/java/studypro/ContactEntity.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a939d861/11a66aed-6d63-4c6b-a920-7e5afa220233/javastudy.javastudy.contact">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_hobby_detail" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a939d861/11a66aed-6d63-4c6b-a920-7e5afa220233/javastudy.javastudy.contact_hobby_detail">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_tel_detail" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a939d861/11a66aed-6d63-4c6b-a920-7e5afa220233/javastudy.javastudy.contact_tel_detail">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hobby" pinned="false" current-in-tab="false">
-        <entry file="das://table:/a939d861/11a66aed-6d63-4c6b-a920-7e5afa220233/javastudy.javastudy.hobby">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -207,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/main/java/studypro/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/studypro/ContactServiceImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../study3/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/../study3/src/main/resources/spring-config.xml" />
         <option value="$PROJECT_DIR$/../study3/pom.xml" />
         <option value="$PROJECT_DIR$/../study3/src/main/java/studypro/Main.java" />
       </list>
@@ -224,6 +192,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -316,13 +291,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="javastudy" />
     <property name="JPA.DatabaseSchemaImportDialog" value="11a66aed-6d63-4c6b-a920-7e5afa220233" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../study3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Program Files/Java/jdk-9.0.1/lib/spring-context-support-5.0.0.RC4.jar!/" />
     <property name="vcs.patch.path" value="$PROJECT_DIR$/../study3" />
   </component>
   <component name="RecentsManager">
@@ -331,9 +306,9 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study3\src\main\java\studypro" />
       <recent name="C:\study3\src\main\resources" />
       <recent name="C:\study3\src" />
-      <recent name="C:\study3\src\main\java\studypro" />
       <recent name="C:\study3\src\main\java\META-INF" />
     </key>
   </component>
@@ -358,7 +333,7 @@
       <module />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <log_file path="$PROJECT_DIR$" checked="true" skipped="true" show_all="false" alias="Trass" />
+      <log_file path="$PROJECT_DIR$" checked="false" skipped="true" show_all="false" alias="Trass" />
       <output_file is_save="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -369,7 +344,7 @@
       <option name="MAIN_CLASS_NAME" value="studypro.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/..//" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../study3" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -377,6 +352,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="study3" />
       <envs />
+      <shortenClasspath name="CLASSPATH_FILE" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -475,7 +451,7 @@
       <option name="presentableId" value="Default" />
       <updated>1514441068127</updated>
       <workItem from="1514441075435" duration="12296000" />
-      <workItem from="1514466061708" duration="10164000" />
+      <workItem from="1514466061708" duration="22007000" />
     </task>
     <task id="LOCAL-00001">
       <created>1514472642838</created>
@@ -519,11 +495,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514475433017</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Study Project">
+      <created>1514477481204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1514477481204</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22460000" />
+    <option name="totallyTimeSpent" value="34303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,11 +537,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5135135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5135135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.24644549" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.7535545" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.251634" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.748366" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.4944356" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -586,7 +569,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Study Project" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -618,9 +603,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -687,14 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../study3/src/main/resources/sping-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -885,14 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../study3/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../study3/study3.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -901,13 +868,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../study3/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study3/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="63" column="27" lean-forward="false" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="465" column="0" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="562" column="0" lean-forward="false" selection-start-line="562" selection-start-column="0" selection-end-line="562" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../study3/src/main/java/studypro/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../study3/src/main/java/studypro/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +968,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|study3</last-edited>
+          <last-edited>study3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
