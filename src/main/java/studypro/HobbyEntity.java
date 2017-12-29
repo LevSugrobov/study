@@ -5,34 +5,41 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "hobby", schema = "javastudy", catalog = "javastudy")
+@Table(name = "hobby")
 public class HobbyEntity {
-    private String hobbyId;
-
     @Id
     @Column(name = "hobby_id", nullable = false, insertable = true, length = 20)
-    public String getHobbyId() {
+    private int hobbyId;
+    @Column
+    private String description;
+    @ManyToMany
+    @JoinTable(name = "contact_hobby_detail",
+            joinColumns = @JoinColumn(name = "hobby_id"),
+            inverseJoinColumns = @JoinColumn(name = "contact_id"))
+    private Set<ContactEntity> contacts = new HashSet<ContactEntity>();
+
+    public int getHobbyId() {
         return hobbyId;
     }
 
-    public void setHobbyId(String hobbyId) {
+    public void setHobbyId(int hobbyId) {
         this.hobbyId = hobbyId;
     }
 
-    private Set<ContactEntity> contacts = new HashSet<ContactEntity>();
-
-    @ManyToMany
-    @JoinTable(name = "contact_hobby_detail",
-            //foreign key for HobbyEntity in contact_hobby_detail table
-            joinColumns = @JoinColumn(name = "hobby_id"),
-            //key for other side - contact table
-            inverseJoinColumns = @JoinColumn(name = "contact_id"))
     public Set<ContactEntity> getContacts() {
         return contacts;
     }
 
     public void setContacts(Set<ContactEntity> contacts) {
         this.contacts = contacts;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     @Override
@@ -42,20 +49,25 @@ public class HobbyEntity {
 
         HobbyEntity that = (HobbyEntity) o;
 
-        if (hobbyId != null ? !hobbyId.equals(that.hobbyId) : that.hobbyId != null) return false;
-
-        return true;
+        if (hobbyId != that.hobbyId) return false;
+        if (description != null ? !description.equals(that.description) : that.description != null) return false;
+        return contacts != null ? contacts.equals(that.contacts) : that.contacts == null;
     }
 
     @Override
     public int hashCode() {
-        return hobbyId != null ? hobbyId.hashCode() : 0;
+        int result = hobbyId;
+        result = 31 * result + (description != null ? description.hashCode() : 0);
+        result = 31 * result + (contacts != null ? contacts.hashCode() : 0);
+        return result;
     }
 
     @Override
     public String toString() {
         return "HobbyEntity{" +
-                "hobbyId='" + hobbyId + '\'' +
+                "hobbyId=" + hobbyId +
+                ", description='" + description + '\'' +
+                ", contacts=" + contacts +
                 '}';
     }
 }

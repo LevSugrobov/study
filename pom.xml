@@ -26,12 +26,13 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
-        <!--driver for connection to MYSql database -->
+        <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
         <dependency>
             <groupId>postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.1.1.jre7</version>
+            <version>9.1-901-1.jdbc4</version>
         </dependency>
+
 
         <!-- Hibernate -->
         <!-- for JPA, use hibernate-entitymanager instead of hibernate-core. Support @PersistenceContext -->
@@ -61,7 +62,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
-            <version>5.0.0.RC4</version>
+            <version>${spring-framework-version}</version>
         </dependency>
 
     </dependencies>

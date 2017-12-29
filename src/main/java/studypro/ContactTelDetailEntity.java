@@ -3,17 +3,24 @@ package studypro;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "contact_tel_detail", schema = "javastudy", catalog = "javastudy")
+@Table(name = "contact_tel_detail")
 public class ContactTelDetailEntity {
-    private int id;
-    private int contactId;
-    private String telType;
-    private String telNumber;
-    private int version;
-    private ContactEntity contactById;
-
     @Id
-    @Column(name = "id", nullable = false,insertable = true, updatable =true)
+    @Column(nullable = false)
+    private int id;
+    @Column(name = "tel_type", nullable = false, length = 20)
+    private String telType;
+    @Column(name = "tel_number", nullable = false, length = 20)
+    private String telNumber;
+    @Column(name = "version", nullable = false)
+    private int version;
+    @ManyToOne
+    @JoinColumn(name = "contact_by_id")
+    private ContactEntity contactById;
+    @OneToOne
+    @JoinColumn(name = "contact", referencedColumnName = "id", nullable = false)
+    private ContactEntity contact;
+
     public int getId() {
         return id;
     }
@@ -22,18 +29,6 @@ public class ContactTelDetailEntity {
         this.id = id;
     }
 
-    @Basic
-    @Column(name = "contact_id", nullable = false,insertable = true, updatable =true)
-    public int getContactId() {
-        return contactId;
-    }
-
-    public void setContactId(int contactId) {
-        this.contactId = contactId;
-    }
-
-    @Basic
-    @Column(name = "tel_type", nullable = false,insertable = true, updatable =true, length = 20)
     public String getTelType() {
         return telType;
     }
@@ -42,8 +37,6 @@ public class ContactTelDetailEntity {
         this.telType = telType;
     }
 
-    @Basic
-    @Column(name = "tel_number", nullable = false,insertable = true, updatable =true, length = 20)
     public String getTelNumber() {
         return telNumber;
     }
@@ -52,8 +45,6 @@ public class ContactTelDetailEntity {
         this.telNumber = telNumber;
     }
 
-    @Basic
-    @Column(name = "version", nullable = false,insertable = true, updatable =true)
     public int getVersion() {
         return version;
     }
@@ -61,16 +52,21 @@ public class ContactTelDetailEntity {
     public void setVersion(int version) {
         this.version = version;
     }
-    private ContactEntity contact;
 
-    @ManyToOne
-    @JoinColumn(name = "contact_id")
     public ContactEntity getContact() {
         return contact;
     }
 
     public void setContact(ContactEntity contact) {
         this.contact = contact;
+    }
+
+    public ContactEntity getContactById() {
+        return contactById;
+    }
+
+    public void setContactById(ContactEntity contactById) {
+        this.contactById = contactById;
     }
 
     @Override
@@ -81,31 +77,33 @@ public class ContactTelDetailEntity {
         ContactTelDetailEntity that = (ContactTelDetailEntity) o;
 
         if (id != that.id) return false;
-        if (contactId != that.contactId) return false;
         if (version != that.version) return false;
         if (telType != null ? !telType.equals(that.telType) : that.telType != null) return false;
         if (telNumber != null ? !telNumber.equals(that.telNumber) : that.telNumber != null) return false;
-
-        return true;
+        if (contactById != null ? !contactById.equals(that.contactById) : that.contactById != null) return false;
+        return contact != null ? contact.equals(that.contact) : that.contact == null;
     }
 
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + contactId;
         result = 31 * result + (telType != null ? telType.hashCode() : 0);
         result = 31 * result + (telNumber != null ? telNumber.hashCode() : 0);
         result = 31 * result + version;
+        result = 31 * result + (contactById != null ? contactById.hashCode() : 0);
+        result = 31 * result + (contact != null ? contact.hashCode() : 0);
         return result;
     }
 
-    @OneToOne
-    @JoinColumn(name = "id", referencedColumnName = "id", nullable = false)
-    public ContactEntity getContactById() {
-        return contactById;
-    }
-
-    public void setContactById(ContactEntity contactById) {
-        this.contactById = contactById;
+    @Override
+    public String toString() {
+        return "ContactTelDetailEntity{" +
+                "id=" + id +
+                ", telType='" + telType + '\'' +
+                ", telNumber='" + telNumber + '\'' +
+                ", version=" + version +
+                ", contactById=" + contactById +
+                ", contact=" + contact +
+                '}';
     }
 }
